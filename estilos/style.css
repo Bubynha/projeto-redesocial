@@ -37,3 +37,27 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+li {
+    padding: 5px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 50% 50%;
+    width: 70px;
+    height: 70px;
+}
+
+iframe {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 300px;
+}
