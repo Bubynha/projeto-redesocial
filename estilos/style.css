@@ -16,7 +16,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
 }
 
 main {
@@ -25,8 +25,8 @@ main {
 }
 
 section#telefone {
-    height: 627px;
-    width: 311px;
+    height: 600px;
+    width: 310px;
     /* ../ - Voltar duas pastas e acessar uma nova */
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
@@ -40,10 +40,10 @@ section#telefone {
 
 iframe#frame {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    top: 76px;
+    left: 21px;
+    width: 253px;
+    height: 448px;
 }
 
 section#redes-sociais {
@@ -51,11 +51,20 @@ section#redes-sociais {
 }
 
 li {
-    padding: 2px;
+    padding: 4px;
 }
 img {
     border: 1px solid black;
     border-radius: 50% 50%;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+    /* Para a borda fazer do tamanho do Objeto */
+    box-sizing: border-box;
+}
+ /* Animação do botão */
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.712);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);
+    transition: transform .2s;
 }
