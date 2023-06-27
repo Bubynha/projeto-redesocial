@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100vw;
+
+}
+
+/* ESCONDER BARRA DE ROLAGEM */
+::-webkit-scrollbar { 
+  display: none;
+}
+
+a {
+    display: block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: -4px;
+}
+
+a:hover {
+    background-color: darkred;
+}
